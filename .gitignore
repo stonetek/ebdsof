@@ -1,0 +1,37 @@
+
+# Ignora arquivos compilados
+*.class
+
+# Ignora diretórios de build
+target/
+bin/
+
+# Ignora IDE configs
+*.iml
+.idea/
+
+# Ignora a pasta resources
+src/main/resources/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de configuração local
+config/local.properties 
+
+# Ignora arquivos de teste
+src/test/   
+
+# Ignora arquivos de dependências
+lib/
+
+# Ignora arquivos de cache
+.cache/
+
+# Ignora arquivos de backup
+*.bak
+*.tmp   
+
+# Ignora a pasta util dentro do pacote stonetek.com.ebdsoft
+/src/main/java/stonetek/com/ebdsoft/util/
+

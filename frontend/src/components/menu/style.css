@@ -1,0 +1,45 @@
+.menu-container {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    z-index: 1000; /* Ensures the menu stays on top */
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: .8rem;
+    position: relative;
+}
+
+.submenu {
+    background-color: #444;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item:hover .submenu,
+.menu-item:focus-within .submenu {
+    display: block;
+}
+
+.submenu-item {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.submenu-item:hover {
+    background-color: #555;
+}
